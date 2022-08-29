@@ -8,7 +8,7 @@
 	$: link = `https://webshot.nodesite.eu:20122/rest/${width}/${height}/full/https://cdn.discordapp.sk/static/${hash}`;
 </script>
 
-<a target="_blank" href="https://cdn.discordapp.sk/static/${hash}">
+<a target="_blank" href="https://cdn.discordapp.sk/static/{hash}">
 	<img src={link} {alt} />
 </a>
 
